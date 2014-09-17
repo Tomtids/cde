@@ -88,13 +88,12 @@ body, html {
 }
 .header .account, .header .facebook, .header .twitter {
   float: right;
-  margin-right: 15px;
+  margin-right: 18px;
 }
 .header .twitter {
   margin-right: 0;
 }
 .header .banner {
-  background: #fff;
   padding-top: 7px;
   padding-bottom: 10px;
   margin-top: 20px;
@@ -269,6 +268,7 @@ body, html {
 }
 .icon-grid .icon {
   background: url(../images/icon-1.png) no-repeat;
+  display: block;
   padding-top: 65px;
   width: 61px;
 }
@@ -357,6 +357,7 @@ body, html {
 ===================*/
 
 .home-page .header {
+  background-image: url(../images/bg-header-home.png);
   height: 625px;
 }
 
