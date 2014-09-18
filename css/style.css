@@ -159,6 +159,7 @@ body, html {
 
 .main {
   background: #f4f6f5;
+  display: block;
   padding: 1px 8px 30px 8px;
   overflow: hidden;
   margin: 0 auto;
@@ -178,6 +179,7 @@ body, html {
   overflow: hidden;
 }
 
+
 .main .row.separate {
   margin-top: 70px;
 }
@@ -186,6 +188,7 @@ body, html {
   float: left;
   font-size: 12px;
   margin-right: 60px;
+  padding-bottom: 10px;
   width: 247px;
 }
 .main .column.last {
@@ -260,6 +263,7 @@ body, html {
 .icon-grid {
   list-style-type: none;
   padding: 0;
+  margin: 0 ;
 }
 .icon-grid li {
   float: left;
@@ -350,6 +354,11 @@ body, html {
   display: inline-block;
   float: right;
   margin-top: -10px;
+}
+
+.lt-ie8 .footer .twitter, .lt-ie8 .footer .facebook, .lt-ie8 .footer .account {
+  position: relative;
+  top: -10px;
 }
 
 /*===================
