@@ -144,6 +144,14 @@ body, html {
   text-decoration: none;
 }
 
+.main-navigation ul li.active {
+  border-bottom: 13px solid #134424;
+  background: #134424;
+}
+.main-navigation ul li.active a {
+  color: #fff;
+}
+
 .main-navigation .home a { background-position: 31px 8px; }
 .main-navigation .news a { background-position: -75px 8px; }
 .main-navigation .discussion a { background-position: -188px 8px; }
@@ -151,7 +159,16 @@ body, html {
 .main-navigation .health a { background-position: -402px 8px; }
 .main-navigation .resources a { background-position: -520px 8px; }
 .main-navigation .staff a { background-position: -630px 8px; }
-.main-navigation .documents a { background-position: -735px 8px; }
+.main-navigation .documents a { background-position: -75px 8px; }
+
+.main-navigation li.home.active a { background-position: 31px -181px; }
+.main-navigation li.news.active a { background-position: -75px -181px; }
+.main-navigation li.discussion.active a { background-position: -188px -181px; }
+.main-navigation li.messages.active a { background-position: -285px -181px; }
+.main-navigation li.health.active a { background-position: -402px -181px; }
+.main-navigation li.resources.active a { background-position: -520px -181px; }
+.main-navigation li.staff.active a { background-position: -630px -181px; }
+.main-navigation li.documents.active a { background-position: -75px -181px; }
 
 /*===================
   Main Content Block
